@@ -29,8 +29,8 @@
 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yourusername/chat_mind.git
-cd chat_mind
+git clone https://github.com/ffly12551-code/Straight-Guy-Chat-Tool-chat_mind.git
+cd Straight-Guy-Chat-Tool-chat_mind
 ```
 
 2. 安装依赖
