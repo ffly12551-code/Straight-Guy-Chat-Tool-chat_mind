@@ -1,4 +1,4 @@
-# ChatMind - AI聊天分析与回复助手
+# Straight-Guy-Chat-Tool - AI聊天分析与回复助手
 
 一款基于 Flutter 开发的 Android App，通过 AI 大模型的视觉理解能力，分析聊天截图内容，帮助用户读懂对方心理、识别沟通风险、生成高质量回复建议。
 
@@ -54,14 +54,14 @@ flutter run
 
 ### 方式一：APP内分析
 
-1. 打开 ChatMind
+1. 打开 APP
 2. 选择场景（职场/亲密关系/家庭/社交）
 3. 点击「从相册选择」或截图
 4. 查看AI分析结果
 
 ### 方式二：悬浮窗模式（推荐）
 
-1. 打开 ChatMind
+1. 打开 APP
 2. 点击「打开悬浮窗」，授予权限
 3. 返回微信/QQ等聊天APP
 4. 点击悬浮球 → 框选聊天区域 → 查看分析结果
@@ -69,7 +69,7 @@ flutter run
 ## 项目结构
 
 ```
-chat_mind/
+Straight-Guy-Chat-Tool-chat_mind/
 ├── lib/
 │   ├── models/          # 数据模型
 │   ├── pages/           # 页面组件
