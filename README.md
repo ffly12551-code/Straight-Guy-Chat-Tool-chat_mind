@@ -1,6 +1,6 @@
 # Straight-Guy-Chat-Tool - AI聊天分析与回复助手
 
-一款基于 Flutter 开发的 Android App，通过 AI 大模型的视觉理解能力，分析聊天截图内容，帮助用户读懂对方心理、识别沟通风险、生成高质量回复建议。
+一款基于 Flutter 开发的 Android App，通过 AI 大模型+知识库，分析聊天截图内容，帮助用户读懂对方心理、对方意图、识别沟通风险、生成高质量回复建议。
 
 ## 功能特点
 
@@ -14,7 +14,7 @@
 
 - **框架**: Flutter 3.12+
 - **语言**: Dart / Kotlin
-- **AI模型**: 豆包视觉大模型 (doubao-1.5-vision-pro-32k)
+- **AI模型**: 视觉大模型 （后续建议自己训练知识库模型，这里为了验证功能）
 - **原生能力**: Android 悬浮窗、MediaProjection 截图
 
 ## 快速开始
@@ -41,7 +41,7 @@ flutter pub get
 
 3. 配置 API Key
 
-- 前往 [火山引擎控制台](https://console.volcengine.com/ark/) 获取豆包 API Key
+- 前往 [火山引擎控制台](https://console.volcengine.com/ark/) 获取 API Key
 - 在APP设置页面配置 API Key
 
 4. 运行
