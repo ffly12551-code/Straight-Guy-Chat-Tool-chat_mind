@@ -1,4 +1,4 @@
-#ChatMind - AI Chat Analysis and Response Assistant
+#ChatMind - AI聊天分析与回复助手
 
 一款基于 Flutter 开发的 Android App，通过 AI 大模型的视觉+知识库，分析聊天截图内容，帮助用户读懂对方心理、对方意图、识别沟通风险、生成高质量回复建议。
 
@@ -12,10 +12,10 @@
 
 ## 技术栈
 
-- **框架**：Flutter 3.12
+- **框架**: Flutter 3.12
 - **语言**：Dart / Kotlin
 - **AI模型**: AI视觉大模型 （小伙伴们后期可修改为自己训练的模型，这里为了验证默认接入API）
-- **Native Features**: Android floating window, MediaProjection screenshot
+- **原生功能**：Android 悬浮窗口、MediaProjection 截图
 
 ## 快速开始
 
@@ -43,7 +43,6 @@ cd 直男聊天工具-聊天思维
 
 - 前往 [火山引擎控制台](https://console.volcengine.com/ark/) 获取 API Key
 - 在APP设置页面配置 API Key
-- 后期小伙伴们自己蒸馏模型体验效果更好
 4. 运行
 
 ”“bash
@@ -72,23 +71,23 @@ flutter run
 chat_mind/
 ├── lib/
 │   ├── models/          # Data models
-│   ├── pages/           # Page components
+│   ├── pages/           # 页面组件
 │   ├── services/        # Service layer (AI, screenshot, floating window, etc.)
-│   └── utils/           # Utility classes
-├── android/             # Android 原生代码
-├── pubspec.yaml         # 依赖配置
-└── README.md            # 项目说明
+│   └── utils/           # 工具类
+├── android/             # Native Android code
+├── pubspec.yaml         # Dependency configuration
+└── README.md            # Project Description
 ```
 
 ## 核心文件
 
 | 文件 | 作用 |
 |------|------|
-| `lib/services/ai_service.dart` | AI分析服务，封装豆包API调用 |
-| `lib/services/screenshot_service.dart` | 截图服务，处理截图数据流 |
-| `lib/services/float_window_service.dart` | 悬浮窗服务，Flutter端封装 |
-| `lib/pages/home_page.dart` | 主页面，场景切换与分析入口 |
-| `android/app/src/main/kotlin/.../FloatWindowService.kt` | 悬浮窗服务（核心） |
+| `lib/services/ai_service.dart` | AI analysis service, encapsulating Douyin API calls |
+| `lib/services/screenshot_service.dart` | Screenshot service that handles screenshot data streams |
+| `lib/services/float_window_service.dart` | Floating window service, encapsulated for Flutter side |
+| `lib/pages/home_page.dart` | Main page, entry point for scene switching and analysis |
+| `android/app/src/main/kotlin/... /FloatWindowService.kt | Floating Window Service (Core)
 
 ## 开源协议
 
@@ -96,7 +95,7 @@ chat_mind/
 
 ## 贡献
 
-欢迎提交 Issue 和 Pull Request！
+Welcome to submit issues and pull requests!
 
 ## 致谢
 
