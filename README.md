@@ -1,6 +1,6 @@
-# ChatMind - AI聊天分析与回复助手
+#ChatMind - AI Chat Analysis and Response Assistant
 
-一款基于 Flutter 开发的 Android App，通过 AI 大模型的视觉理解能力，分析聊天截图内容，帮助用户读懂对方心理、识别沟通风险、生成高质量回复建议。
+一款基于 Flutter 开发的 Android App，通过 AI 大模型的视觉+知识库，分析聊天截图内容，帮助用户读懂对方心理、对方意图、识别沟通风险、生成高质量回复建议。
 
 ## 功能特点
 
@@ -12,41 +12,41 @@
 
 ## 技术栈
 
-- **框架**: Flutter 3.12+
-- **语言**: Dart / Kotlin
-- **AI模型**: 豆包视觉大模型 (doubao-1.5-vision-pro-32k)
-- **原生能力**: Android 悬浮窗、MediaProjection 截图
+- **框架**：Flutter 3.12
+- **语言**：Dart / Kotlin
+- **AI模型**: AI视觉大模型 （小伙伴们后期可修改为自己训练的模型，这里为了验证默认接入API）
+- **Native Features**: Android floating window, MediaProjection screenshot
 
 ## 快速开始
 
 ### 环境要求
 
-- Flutter 3.12+
-- Android SDK 26+ (Android 8.0+)
+- Flutter 3.12
+- Android SDK 26（Android 8.0）
 
 ### 安装步骤
 
 1. 克隆仓库
 
-```bash
+”“bash
 git clone https://github.com/ffly12551-code/Straight-Guy-Chat-Tool-chat_mind.git
-cd Straight-Guy-Chat-Tool-chat_mind
+cd 直男聊天工具-聊天思维
 ```
 
 2. 安装依赖
 
-```bash
-flutter pub get
+”“bash
+摇摆酒吧
 ```
 
 3. 配置 API Key
 
-- 前往 [火山引擎控制台](https://console.volcengine.com/ark/) 获取豆包 API Key
+- 前往 [火山引擎控制台](https://console.volcengine.com/ark/) 获取 API Key
 - 在APP设置页面配置 API Key
-
+- 后期小伙伴们自己蒸馏模型体验效果更好
 4. 运行
 
-```bash
+”“bash
 flutter run
 ```
 
@@ -71,10 +71,10 @@ flutter run
 ```
 chat_mind/
 ├── lib/
-│   ├── models/          # 数据模型
-│   ├── pages/           # 页面组件
-│   ├── services/        # 服务层（AI、截图、悬浮窗等）
-│   └── utils/           # 工具类
+│   ├── models/          # Data models
+│   ├── pages/           # Page components
+│   ├── services/        # Service layer (AI, screenshot, floating window, etc.)
+│   └── utils/           # Utility classes
 ├── android/             # Android 原生代码
 ├── pubspec.yaml         # 依赖配置
 └── README.md            # 项目说明
@@ -92,7 +92,7 @@ chat_mind/
 
 ## 开源协议
 
-MIT License
+与条款
 
 ## 贡献
 
